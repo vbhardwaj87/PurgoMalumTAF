@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRun
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 1,208.411 s <<< FAILURE! - in runner.TestRun
+Validate that service returns error when no input is provided #1(Validation of the API scenarios on PurgoMalum profanity service)  Time elapsed: 3.267 s  <<< FAILURE!
+java.lang.AssertionError: expected:<No Input> but was:<true>
+
+Validate that service returns error when no input is provided #2(Validation of the API scenarios on PurgoMalum profanity service)  Time elapsed: 2.779 s  <<< FAILURE!
+java.lang.AssertionError: expected:<No Input> but was:<true>
+
+Validate that service returns error when no input is provided #3(Validation of the API scenarios on PurgoMalum profanity service)  Time elapsed: 2.669 s  <<< FAILURE!
+java.lang.AssertionError: expected:<No Input> but was:<true>
+

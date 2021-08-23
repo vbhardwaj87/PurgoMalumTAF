@@ -1,0 +1,217 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-23T22:19:56.369Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2570000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.BaseStepDef.setUp()"
+            }
+          }
+        ],
+        "line": 65,
+        "name": "Validate that service returns error when no input is provided",
+        "description": "",
+        "id": "validation-of-the-api-scenarios-on-purgomalum-profanity-service;validate-that-service-returns-error-when-no-input-is-provided;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 659000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.BaseStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3040000000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "profanity service is available",
+            "match": {
+              "location": "Steps.e2eStepDef.givenProfanityService()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 466000000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "error message is returned in the response when required parameter is not provided in xml",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xml",
+                  "offset": 85
+                }
+              ],
+              "location": "Steps.e2eStepDef.errorMessageReturnedNoInput(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vishal"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-23T22:20:03.189Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1929000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.BaseStepDef.setUp()"
+            }
+          }
+        ],
+        "line": 66,
+        "name": "Validate that service returns error when no input is provided",
+        "description": "",
+        "id": "validation-of-the-api-scenarios-on-purgomalum-profanity-service;validate-that-service-returns-error-when-no-input-is-provided;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 662000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.BaseStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 426000000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "profanity service is available",
+            "match": {
+              "location": "Steps.e2eStepDef.givenProfanityService()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 333000000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "error message is returned in the response when required parameter is not provided in json",
+            "match": {
+              "arguments": [
+                {
+                  "val": "json",
+                  "offset": 85
+                }
+              ],
+              "location": "Steps.e2eStepDef.errorMessageReturnedNoInput(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vishal"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-23T22:20:06.545Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1569000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.BaseStepDef.setUp()"
+            }
+          }
+        ],
+        "line": 67,
+        "name": "Validate that service returns error when no input is provided",
+        "description": "",
+        "id": "validation-of-the-api-scenarios-on-purgomalum-profanity-service;validate-that-service-returns-error-when-no-input-is-provided;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 660000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.BaseStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 281000000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "profanity service is available",
+            "match": {
+              "location": "Steps.e2eStepDef.givenProfanityService()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 359000000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "error message is returned in the response when required parameter is not provided in plaintext",
+            "match": {
+              "arguments": [
+                {
+                  "val": "plaintext",
+                  "offset": 85
+                }
+              ],
+              "location": "Steps.e2eStepDef.errorMessageReturnedNoInput(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vishal"
+          }
+        ]
+      }
+    ],
+    "name": "Validation of the API scenarios on PurgoMalum profanity service",
+    "description": "",
+    "id": "validation-of-the-api-scenarios-on-purgomalum-profanity-service",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ApiScenarios.feature",
+    "tags": []
+  }
+]
