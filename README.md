@@ -8,7 +8,10 @@
     
     -BDD based framework
     
-    -Full paramaterized execution can be done by uncommenting the rows in the Examples table under scenarios
+    -Full paramaterized execution can be done by uncommenting the 
+     rows in the Examples table under scenarios
+    
+    -All API scenarios covered
 
 #Execution
      To generate cucumber-maven report, execute
